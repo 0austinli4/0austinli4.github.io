@@ -1,0 +1,39 @@
+
+  
+  
+  .title{
+    font-family:Inconsolata;
+    font-style: bold; 
+    text-align: center;
+  }
+  
+    
+  .Background{
+    font-size:20px;
+    margin-top: 10px;
+    font-family: Inconsolata;
+    margin-left:10px;
+  }
+    
+
+    .leftside{
+      border-style: solid;
+      vertical-align:top;
+      width: 800px;
+      height: 400px;
+      display: inline-block;
+      text-align: left;
+      border-radius: 2px;
+      font-family: Inconsolata;
+    }
+
+    .aboutmetext{
+      margin-left: 10px;
+      font-family:Inconsolata;
+    }
+
+    
+  
+  
+  
+    

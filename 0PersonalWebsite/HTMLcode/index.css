@@ -1,0 +1,153 @@
+p{
+  font-family: Inconsolata;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2{
+margin-top: 0px;
+text-align: left;
+font-family: Inconsolata;
+}
+
+.title{
+  font-family:Inconsolata;;
+  font-style: bold; 
+  text-align: center;
+}
+
+
+
+.profilepic{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-top: 0px;
+  border-radius: 50px;
+}
+ 
+
+  .sidebar{
+    border-style: solid;
+    border-color:aqua;
+    vertical-align:top;
+    width: 200px;
+    height: 800px;
+    display: inline-block;
+    text-align: left;
+    border-radius: 2px;
+  }
+
+
+  .Contact{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .Gmail{
+    margin-left: 10px;
+    margin-top:0px;
+    margin-bottom:10px;
+  }
+  .insta{
+    margin-left:10px;
+  }
+
+  .introparagraph{
+    border-color:aqua;
+    margin-left: 10px;
+    vertical-align: top;
+    width: 600px;
+    height: 150px;
+    text-align: top;
+    display: inline-block;
+    font-family: Inconsolata;
+  }
+
+  .middle-section{
+    border-color:aqua;
+    margin-left: 10px;
+    border-style:solid;
+    vertical-align: top;
+    display:inline-block;
+    height: 800px;
+  }
+
+  
+  .blog1{
+    margin-left:10px;
+  }
+
+  .introtext{
+    margin-left:20px;
+    margin-top: 10px;
+    width:400px;
+    display: inline-block;
+  }
+  .purpose{
+    margin-left: 10px;
+    margin-top: 10px;
+    width:400px;
+    height:100px;
+    text-align: top;
+    margin-bottom: 0px;
+  }
+  .purposetitle{
+    margin-bottom:20px;
+  }
+
+  .purposetext{
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .myblogs{
+    margin-left: 10px;
+    margin-top: 20px;
+    size: 50px;
+  }
+
+  .rightsection{
+    display: inline-block;
+    width: 600px;
+    height: 804.5px;
+  }
+
+  .Howls{
+    border-color:aqua;
+    margin-left: 20px;
+    border-style: solid;
+    width: 600px;
+    height: 375px;
+    object-fit: cover;
+    display: inline-block;
+  }
+
+
+  .samurai{
+    border-color:aqua;
+    margin-left: 20px;
+    border-style: solid;
+    width: 600px;
+    height:375px;
+    object-fit: cover;
+    display: inline-block;
+    margin-top: 40px;
+  }
+
+  
+  .myblogs{
+    height: 200x;
+    margin-left: 10px;
+    margin-top:0px;
+    vertical-align:top;
+    display: inline-block;
+  }
+
+  
+  
+
+
+
+  
