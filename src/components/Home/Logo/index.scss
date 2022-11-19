@@ -1,0 +1,25 @@
+
+.logo-container{
+    z-index:0;
+    width: 600px;
+    height: 800px;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 500px;
+    margin: auto;
+    transform: rotateZ(30deg) !important;
+
+    .solid-logo{
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        margin: auto;
+        width: 100%;
+        opacity: 0.2;
+        transform: rotateZ(30deg);
+        z-index: 1;
+    }
+}
