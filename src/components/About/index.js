@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import pomodoroPic from '../../assets/images/Pomodoro-Timer.png';
 import noteTaker from '../../assets/images/noteTake.png';
 
-const About = () => {    
+const About = () => { 
 
     return (
         <div className="container about-page">

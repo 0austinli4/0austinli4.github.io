@@ -10,7 +10,7 @@ import Logo from './Logo';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['u', 's', 't', 'i', 'n']
-    const job = "software engineer"
+    const job = "computer science student"
 
     useEffect(() => {
         setTimeout(() => {
@@ -23,16 +23,16 @@ const Home = () => {
             <div className="text-zone">
                 <h1>
                 <span className={letterClass}>H</span>
-                <span className={`${letterClass}_12`}>i,</span>
+                <span className={`${letterClass}_8`}>i,</span>
                 <br />
-                <span className={`${letterClass}_13`}>I</span>
-                <span className={`${letterClass}_14`}>'m</span>
+                <span className={`${letterClass}_9`}>I</span>
+                <span className={`${letterClass}_10`}>'m</span>
                 <img src={LogoTitle} alt="developer"/>
                 <AnimatedLetters letterClass={letterClass}
-                strArray={nameArray} idx={15}/>
+                strArray={nameArray} idx={11}/>
                 <br />
                 <AnimatedLetters letterClass={letterClass}
-                strArray={job.split("")} idx={22} />
+                strArray={job.split("")} idx={12} />
                 </h1>
 
                 <h2> I'm a Freshman at Princeton University, majoring in Computer Science and pursuing a 
