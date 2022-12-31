@@ -70,11 +70,11 @@ const About = () => {
                         <FontAwesomeIcon icon={faJsSquare} color="#EFD810"/>
                     </div>
                     <div className='face5'>
-                        <FontAwesomeIcon icon={faPython} color="#4B8BBE"/>
+                        <FontAwesomeIcon icon={faPython} color="#4B8BBE"/> 
                     </div>
                     <div className='face6'>
                         <FontAwesomeIcon icon={faGitAlt} color="#EC4D28"/>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>
