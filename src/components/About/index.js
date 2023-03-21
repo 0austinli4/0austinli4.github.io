@@ -3,6 +3,7 @@ import { faCss3, faGitAlt, faHtml5, faJsSquare, faPython, faReact } from '@forta
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import pomodoroPic from '../../assets/images/Pomodoro-Timer.png';
 import noteTaker from '../../assets/images/noteTake.png';
+import dailyprince from '../../assets/images/dailyprincestorypreview.png';
 
 const About = () => { 
 
@@ -20,14 +21,23 @@ const About = () => {
                     I have a particular interest in human-computer interaction and UI/UX interfaces.
                 </p>
                 <p>
-                    In my free time, I like to play volleyball, spend time with friends, 
-                    and read.
+                    In my free time, I like to play volleyball and read.
                 </p>
                 <br/><br/>
 
                 <h1>
-                    My Projects
+                    Projects
                 </h1>
+
+                <h2>Campus App</h2>
+                <img className='princePic' src={dailyprince} alt="Campus App"/> 
+                <p>
+                    <b>Description:</b> Campus app for Princeton students featuring stories from News website, 
+                    student events, daily dining hall options, etc.
+                    <br/><br/>
+                    <b>Technologies:</b> React Native
+                </p>
+
                 <h2>Pomodoro Timer</h2>
                 <img className='pomoPic' src={pomodoroPic} alt="pomodoro"/>  
                 <p>
@@ -52,6 +62,7 @@ const About = () => {
                 <br/><br/>
                 <b>Technologies:</b> HTML, CSS, React, Animate.css, Sass, FortAwesome Icon Library
                 </p>
+
             </div>
         
 
