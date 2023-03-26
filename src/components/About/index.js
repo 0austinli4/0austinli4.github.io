@@ -36,8 +36,8 @@ const About = () => {
                     student events, daily dining hall options, etc.
                     <br/><br/>
                     <b>Technologies:</b> React Native
-                    I am also part of the development team of the <a target="_blank" rel='noreferrer' href='https://www.dailyprincetonian.com/'
-                    >dailyprincetonian</a> website 
+                    I am also part of the development team for the school news website <a target="_blank" rel='noreferrer' href='https://www.dailyprincetonian.com/'
+                    >dailyprincetonian</a> 
                 </p>
 
                 <h2>Pomodoro Timer</h2>
