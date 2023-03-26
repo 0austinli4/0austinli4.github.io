@@ -37,7 +37,7 @@ const About = () => {
                     <br/><br/>
                     <b>Technologies:</b> React Native
                     I am also part of the development team of the <a target="_blank" rel='noreferrer' href='https://www.dailyprincetonian.com/'
-                    > dailyprincetonian </a> website 
+                    >dailyprincetonian</a> website 
                 </p>
 
                 <h2>Pomodoro Timer</h2>
