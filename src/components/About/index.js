@@ -3,7 +3,9 @@ import { faCss3, faGitAlt, faHtml5, faJsSquare, faPython, faReact } from '@forta
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import pomodoroPic from '../../assets/images/Pomodoro-Timer.png';
 import noteTaker from '../../assets/images/noteTake.png';
-import dailyprince from '../../assets/images/dailyprincestorypreview.png';
+import dailyprince from '../../assets/images/dailyprincepreview.png';
+import gmail_filter from '../../assets/images/gmail_filter.png';
+import prospectpage from '../../assets/images/prospectpage.png';
 
 const About = () => { 
 
@@ -11,51 +13,73 @@ const About = () => {
         <div className="container about-page">
             <div className ='text-zone'>
                 <h1>
-                    About Me
+                    About me
                 </h1>
                 <p>
-                    I'm a Freshman at Princeton University, studying computer
-                    science and pursuing a certificate in Technology and Society. 
+                    I'm a sophomore at Princeton studying computer
+                    science. 
                 </p>
                 <p>
-                    I have a particular interest in human-computer interaction and UI/UX interfaces.
+                    I have a interest in Computer Vision, Security, Machine Learning,
+                    and Front-end Development.
                 </p>
                 <p>
-                    In my free time, I like to play volleyball and read.
+                    On campus, I'm also part of The Daily Princetonian, the Princeton Entrepreneurship Club, 
+                    and the Men's Club Volleyball Team. 
                 </p>
-                <br/><br/>
 
                 <h1>
                     Projects
                 </h1>
-
-                <h2>Campus App</h2>
-                <img className='princePic' src={dailyprince} alt="Campus App"/> 
                 <p>
-                    <b>Description:</b> Campus app for Princeton students featuring stories from News website, 
-                    student events, daily dining hall options, etc.
-                    <br/><br/>
-                    <b>Technologies:</b> React Native
-                    I am also part of the development team for the school news website <a target="_blank" rel='noreferrer' href='https://www.dailyprincetonian.com/'
-                    >dailyprincetonian</a> 
+                    Here are projects I'm involved in on Campus, as well as some personal coding projects.
+                </p>
+
+                <h2>Daily Princetonian News Website</h2>
+
+                <img className='princePic' src={prospectpage} alt="Prospect Page"/> 
+
+                <p>
+                    I help maintain and update <a target="_blank" rel='noreferrer' href='https://www.dailyprincetonian.com/'> The Daily Princetonian</a> 
+                    , Princeton's student-run newspaper website, which I've contributed to through projects such as this re-design of the Art's & Culture page.
+                </p>
+
+                <h2>Campus iOS App</h2>
+
+                <img className='campusPic' src={dailyprince} alt="Campus App"/> 
+                
+                <p>
+                    I'm involved in developing an iOS app for Princeton students, 
+                    featuring campus news stories, student events/opportunities, 
+                    dining hall options, and more. Developed with React Native, ExpoGo,
+                    and Firestore.
+                </p>
+
+                <h2>Gmail Filter</h2>
+
+                <img className='gmail_filter' src={gmail_filter} alt="Gmail Filter Picture"/> 
+
+                <p>
+                    Personal project to automate Gmail organization for common information 
+                    sent through university email channels such as sales, lost items, 
+                    student opportunities, etc. Developed through Google's Gmail API. 
                 </p>
 
                 <h2>Pomodoro Timer</h2>
+                
                 <img className='pomoPic' src={pomodoroPic} alt="pomodoro"/>  
+
                 <p>
-                    <b>Description:</b> Study Timer with session times and break times, including reset
-                    button and adjustable session/break lengths
-                    <br/><br/>
-                    <b>Technologies:</b> HTML, CSS, BootStrap
+                    Study Timer alternating between session times 
+                    and break times, including reset button and adjustable session/break lengths. 
+                    Created using BootStrap.
                 </p>
             
                 <h2>NoteTaker</h2>
                 <img className='notePic' src={noteTaker} alt="notetake"/>
                 <p>
-                    <b>Description:</b> Simple Note Taking App
-                    <br/><br/>
-                    <b>Technologies:</b> XCode, SwiftUI, Swift
-                    Add notes through SwiftUI app
+                    XCode project using SwiftUI for taking quick 
+                    notes / reminders.
                 </p>
 
                 <h2>Personal Website</h2>
