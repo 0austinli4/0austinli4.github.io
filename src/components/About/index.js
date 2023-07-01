@@ -46,7 +46,7 @@ const About = () => {
 
                 <h2>Campus iOS App</h2>
 
-                <img className='campusPic' src={dailyprince} alt="Campus App"/> 
+                <img className='campusPic' src={dailyprince} alt="Campus"/> 
                 
                 <p>
                     I'm involved in developing an iOS app for Princeton students, 
