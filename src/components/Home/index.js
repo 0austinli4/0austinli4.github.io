@@ -1,6 +1,5 @@
 
 import {useEffect, useState} from 'react';
-import { Link } from 'react-router-dom';
 import LogoTitle from '../../assets/images/a-logo.png';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
@@ -35,11 +34,11 @@ const Home = () => {
                 strArray={job.split("")} idx={12} />
                 </h1>
 
-                <h2> I'm a Freshman at Princeton University, majoring in Computer Science and pursuing a 
+                <h2> I'm a student at Princeton University, studying Computer Science and pursuing a 
                     certificate in <a target="_blank" rel='noreferrer' href='https://kellercenter.princeton.edu/certificates/program-technology-society'>
                     Technology and Society</a>
                 </h2>
-                <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+                <a target="_blank" rel='noreferrer' href='mailto:0austinli4@gmail.com' className='flat-button'>CONTACT ME</a>
             </div>
 
             <Logo/>
