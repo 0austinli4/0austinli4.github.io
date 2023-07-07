@@ -57,7 +57,7 @@ const About = () => {
 
                 <h2>Gmail Filter</h2>
 
-                <img className='gmail_filter' src={gmail_filter} alt="Gmail Filter Picture"/> 
+                <img className='gmail_filter' src={gmail_filter} alt="Gmail Filter"/> 
 
                 <p>
                     Personal project to automate Gmail organization for common information 
